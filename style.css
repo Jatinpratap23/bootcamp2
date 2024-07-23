@@ -66,7 +66,6 @@ border-radius:40px;
     border-bottom: 3px solid   #e0e0e0;
     margin-bottom: 10px;
     padding-right: 0px;
-    
 }
 
 .same{
@@ -130,12 +129,14 @@ bottom: 2px
 }
 .meddel-contant{
     border: 2px solid  #e0e0e0 ;
+    border-radius: 11px;
 }
 .wrriten-content1{
     font-size: medium;
 }
 .end-contant{
     border: 2px solid  #e0e0e0 ;
+    border-radius: 11px;
 }
 .locationname-date{
     font-size: 20px;
