@@ -145,6 +145,15 @@ bottom: 2px
     border: 1px solid   #e0e0e0 ;
     border-radius:8px ;
     margin: 16px 0px 16px 0px;
+    width: 95%;
+    color: red;
+}
+.website2{
+    border: 1px solid   #e0e0e0 ;
+    border-radius:8px ;
+    margin: 16px 0px 16px 0px;
+    width: 95%;
+    color:green;
 }
 
 
