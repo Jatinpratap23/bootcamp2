@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>bootcamp2</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="style.js" defer></script>
 </head>
 
 <body>
@@ -14,7 +15,7 @@
             <img src="images/wholelogo.svg " alt="header" />
         </div>
         <div class="search-bar">
-            <input type="text" class="search-box" placeholder="Search anything" />
+            <input type="text" id="search-Box" value=""  class="search-box" placeholder="Search anything" />
             <img src="images/Vectorsearchicon.svg" class="search-icon" alt="icon" />
         </div>
         <div class="sidetext">
@@ -43,7 +44,7 @@
                 <span class="same">Job</span>
             </div>
             <div class="leftside-buttons d-flex align-item">
-                <button class="buton_A">
+                <button class="buton_A" onclick="onValueChange()">
                     <span>Write a post</span>
                     <img src="images/Vectoricondown.svg" class="A" alt="downicon" />
                 </button>
@@ -197,8 +198,103 @@
             </div>
             </div>
             <div>
-                follow
-            </div>
+                <div class="second-midpart">
+
+
+                    <div class="side-part">
+                    
+                        <div class="city-name">
+                            <img src="images/Grouplocation.svg" alt="location">
+                              <input class="place" type="text" placeholder="Noida, India">
+                        </div>
+                     
+                    <img src="images/Vectorpen.svg" alt="pen">
+                        
+                    </div>
+                    
+                    
+                    <div class="exception">
+                        <img class="error" src="images/baseline-error_outline-24px.svg" alt="...">
+                    
+                        <p class="exception-text">
+                            Your location will help us serve better and extend a personalised experience.
+                        </p>
+                    </div>
+                    
+                    
+                    
+                    <div class="rightbottom">
+                    
+                    <div class="thumsup">
+                     <img src="images/twotone-thumb_up-24px.svg" alt="...">
+                    
+                        <p class="thumsup-text">
+                            RECOMMENDED GROUPS
+                        </p>
+                    </div>
+                    
+                    <div class="rightbottom-detail">
+                    
+                        <div class="rbd">
+                            <div class="rbd-1">
+                                <img src="images/Rectangle 6personside-1.svg" alt="...">
+                    
+                                <p class="rbd-2">Leisure</p>
+                            </div>
+                    
+                            <button class="rbd-3">
+                                Follow
+                            </button>
+                        </div>
+                    
+                    
+                    
+                    
+                        <div class="rbd">
+                            <div class="rbd-1">
+                                <img src="images/Rectangle 6personside-2.svg" alt="...">
+                    
+                                <p class="rbd-2">Activism</p>
+                            </div>
+                            <button class="rbd-3">
+                                Follow
+                            </button>
+                        </div>
+                    
+                    
+                    
+                    
+                    
+                        <div class="rbd">
+                                <div class="rbd-1">
+                                    <img src="images/Rectangle 6personside-3.svg" alt="...">
+                    
+                                    <p class="rbd-2">MBA</p>
+                                </div>
+                    
+                                <button class="rbd-3">
+                                    Follow
+                                </button>
+                        </div>
+                    
+                    
+                    
+                    
+                    
+                        <div class="rbd">
+                                <div class="rbd-1">
+                    
+                                    <img src="images/Rectangle 6personside-4.svg" alt="...">
+                    
+                                    <p class="rbd-2">Philosophy</p>
+                                </div>
+                                    <button class="rbd-3">
+                                        Follow
+                                    </button>
+                                </div>
+                    
+                
+                   </div>
         </div>
     </div>
 </body>
